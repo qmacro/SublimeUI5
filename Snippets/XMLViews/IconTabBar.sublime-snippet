@@ -1,0 +1,11 @@
+<snippet>
+    <tabTrigger>IconTabBar</tabTrigger>
+    <scope>text.xml</scope>
+    <description>XML sap.m.IconTabBar</description>
+    <content><![CDATA[
+<IconTabBar>
+    <items>
+    </items>
+</IconTabBar>
+]]></content>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <tabTrigger>List</tabTrigger>
+    <scope>text.xml</scope>
+    <description>XML sap.m.List</description>
+    <content><![CDATA[
+<List id="${1:listId}" items="${2:itemsAggregation}"
+    mode="${3:SingleSelectMaster}"
+    select="${4:handleListSelect}">
+</List>
+]]></content>
+</snippet>
