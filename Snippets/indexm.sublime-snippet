@@ -1,4 +1,7 @@
 <snippet>
+    <tabTrigger>indexm</tabTrigger>
+    <scope>text.html</scope>
+    <description>sap.m focused index file</description>
 	<content><![CDATA[
 <!DOCTYPE HTML>
 <html>
@@ -29,7 +32,4 @@
     </body>
 </html>
 ]]></content>
-	<tabTrigger>indexm</tabTrigger>
-    <scope>text.html</scope>
-    <description>sap.m focused index file</description>
 </snippet>

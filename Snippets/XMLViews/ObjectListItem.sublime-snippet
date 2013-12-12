@@ -1,4 +1,7 @@
 <snippet>
+    <tabTrigger>ObjectListItem</tabTrigger>
+    <scope>text.xml</scope>
+    <description>XML sap.m.ObjectListItem</description>
     <content><![CDATA[
 <ObjectListItem
     press="${1:handleObjectListItemPress}"
@@ -11,7 +14,4 @@
     </firstStatus>
 </ObjectListItem>
 ]]></content>
-    <tabTrigger>ObjectListItem</tabTrigger>
-    <scope>text.xml</scope>
-    <description>XML sap.m.ObjectListItem</description>
 </snippet>

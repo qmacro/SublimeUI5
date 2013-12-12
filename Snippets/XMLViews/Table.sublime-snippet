@@ -1,0 +1,13 @@
+<snippet>
+    <tabTrigger>Table</tabTrigger>
+    <scope>text.xml</scope>
+    <description>XML sap.m.Table</description>
+    <content><![CDATA[
+<Table
+    headerText="${1:headerTextProperty}"
+    items="{${2:itemsAggregation}}" >
+    <columns>
+    </columns>
+</Table>
+]]></content>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <tabTrigger>ObjectAttributeF</tabTrigger>
+    <scope>text.xml</scope>
+    <description>XML sap.m.ObjectAttribute with Formatter</description>
+    <content><![CDATA[
+<ObjectAttribute text="{
+    path: '${1:textProperty}',
+    formatter: '${2:formatter.identifier}'
+}" />
+]]></content>
+</snippet>

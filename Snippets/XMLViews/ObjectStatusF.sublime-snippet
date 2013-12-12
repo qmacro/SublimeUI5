@@ -1,0 +1,13 @@
+<snippet>
+    <tabTrigger>ObjectStatusF</tabTrigger>
+    <scope>text.xml</scope>
+    <description>XML sap.m.ObjectStatus with Formatter</description>
+    <content><![CDATA[
+<ObjectStatus
+    text="{${1:textProperty}}"
+    state="{
+        path: '${1:textProperty}',
+        formatter: 'formatter.identifier'
+    }" />
+]]></content>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <tabTrigger>Page</tabTrigger>
+    <scope>text.xml</scope>
+    <description>XML sap.m.Page</description>
+    <content><![CDATA[
+<Page title="${1:titleProperty}">
+</Page>
+]]></content>
+</snippet>

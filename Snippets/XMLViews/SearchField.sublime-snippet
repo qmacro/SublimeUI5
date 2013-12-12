@@ -1,0 +1,8 @@
+<snippet>
+    <tabTrigger>SearchField</tabTrigger>
+    <scope>text.xml</scope>
+    <description>XML sap.m.SearchField</description>
+    <content><![CDATA[
+<SearchField search="${1:handleSearch}" width="100%" />
+]]></content>
+</snippet>
