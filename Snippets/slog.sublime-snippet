@@ -1,8 +1,8 @@
 <snippet>
-	<content><![CDATA[
-jQuery.sap.log.${1:info}("${2:logmessage}");
-]]></content>
     <tabTrigger>slog</tabTrigger>
     <scope>text.html, source.js</scope>
     <description>jQuery.sap.log. ...</description>
+	<content><![CDATA[
+jQuery.sap.log.${1:info}("${2:logmessage}");
+]]></content>
 </snippet>
