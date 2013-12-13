@@ -1,0 +1,16 @@
+<snippet>
+    <tabTrigger>ObjectHeader</tabTrigger>
+    <scope>text.html, source.js</scope>
+    <description>sap.m.ObjectHeader JS</description>
+    <content><![CDATA[
+new sap.m.ObjectHeader({
+    title: "{${1:titleProperty}}",
+    number: "{${2:numberProperty}}",
+    numberUnit: "{${3:numberUnitProperty}}",
+    attributes: [
+        ${4:}
+    ],
+    firstStatus: ${5:}
+})
+]]></content>
+</snippet>

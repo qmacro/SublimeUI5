@@ -1,0 +1,14 @@
+<snippet>
+    <tabTrigger>Table</tabTrigger>
+    <scope>text.html, source.js</scope>
+    <description>sap.m.Table JS</description>
+    <content><![CDATA[
+new sap.m.Table({
+    headerText: "${1:headerTextProperty}",
+    items: "{${2:itemsAggregation}}",
+    columns: [
+        ${3:}
+    ]
+})
+]]></content>
+</snippet>

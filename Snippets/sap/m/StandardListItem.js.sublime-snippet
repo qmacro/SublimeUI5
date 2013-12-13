@@ -1,0 +1,11 @@
+<snippet>
+    <tabTrigger>StandardListItem</tabTrigger>
+    <scope>text.html, source.js</scope>
+    <description>sap.m.StandardListItem JS</description>
+    <content><![CDATA[
+new sap.m.StandardListItem({
+    title: "{${1:titleProperty}}",
+    description: "{${2:descriptionProperty}}"
+})
+]]></content>
+</snippet>

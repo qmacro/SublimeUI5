@@ -1,0 +1,17 @@
+<snippet>
+    <tabTrigger>ObjectListItem</tabTrigger>
+    <scope>text.html, source.js</scope>
+    <description>sap.m.ObjectListItem JS</description>
+    <content><![CDATA[
+new sap.m.ObjectListItem({
+    press: "${1:handleObjectListItemPress}",
+    title: "{${2:titleProperty}}",
+    number: "{${3:numberProperty}}",
+    numberUnit: "{${4:numberUnitProperty}}",
+    attributes: [
+        ${5:}
+    ],
+    firstStatus: ${6:}
+})
+]]></content>
+</snippet>

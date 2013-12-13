@@ -1,0 +1,10 @@
+<snippet>
+    <tabTrigger>ObjectAttribute</tabTrigger>
+    <scope>text.html, source.js</scope>
+    <description>sap.m.ObjectAttribute JS</description>
+    <content><![CDATA[
+new sap.m.ObjectAttribute({
+    text: "{${1:textProperty}}"
+})
+]]></content>
+</snippet>

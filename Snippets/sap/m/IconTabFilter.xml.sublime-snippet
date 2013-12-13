@@ -1,11 +1,13 @@
 <snippet>
     <tabTrigger>IconTabFilter</tabTrigger>
     <scope>text.xml</scope>
-    <description>XML sap.m.IconTabFilter</description>
+    <description>sap.m.IconTabFilter XML</description>
     <content><![CDATA[
 <IconTabFilter
     text="${1:textProperty}"
-    icon="sap-icon://${2:icon}">
+    icon="sap-icon://${2:icon}"
+>
+    ${3:}
 </IconTabFilter>
 ]]></content>
 </snippet>

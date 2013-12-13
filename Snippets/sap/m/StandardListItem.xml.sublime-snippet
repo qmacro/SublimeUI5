@@ -1,0 +1,10 @@
+<snippet>
+    <tabTrigger>StandardListItem</tabTrigger>
+    <scope>text.xml</scope>
+    <description>sap.m.StandardListItem XML</description>
+    <content><![CDATA[
+<StandardListItem
+    title="{${1:titleProperty}}"
+    description="{${2:descriptionProperty}}" />
+]]></content>
+</snippet>

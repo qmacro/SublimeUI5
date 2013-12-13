@@ -1,0 +1,13 @@
+<snippet>
+    <tabTrigger>List</tabTrigger>
+    <scope>text.html, source.js</scope>
+    <description>sap.m.List JS</description>
+    <content><![CDATA[
+new sap.m.List({
+    id: "${1:id}",
+    items: "${2:itemsAggregation}",
+    mode: "${3:SingleSelectMaster}",
+    select: "${4:handleListSelect}"
+})
+]]></content>
+</snippet>

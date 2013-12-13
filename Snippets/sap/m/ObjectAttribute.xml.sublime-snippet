@@ -1,7 +1,7 @@
 <snippet>
     <tabTrigger>ObjectAttribute</tabTrigger>
     <scope>text.xml</scope>
-    <description>XML sap.m.ObjectAttribute</description>
+    <description>sap.m.ObjectAttribute XML</description>
     <content><![CDATA[
 <ObjectAttribute text="{${1:textProperty}}" />
 ]]></content>

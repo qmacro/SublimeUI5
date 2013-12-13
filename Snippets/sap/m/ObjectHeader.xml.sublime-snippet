@@ -1,15 +1,18 @@
 <snippet>
     <tabTrigger>ObjectHeader</tabTrigger>
     <scope>text.xml</scope>
-    <description>XML sap.m.ObjectHeader</description>
+    <description>sap.m.ObjectHeader XML</description>
     <content><![CDATA[
 <ObjectHeader
     title="{${1:titleProperty}}"
     number="{${2:numberProperty}}"
-    numberUnit="{${3:numberUnitProperty}}" >
+    numberUnit="{${3:numberUnitProperty}}"
+>
     <attributes>
+        ${4:}
     </attributes>
     <firstStatus>
+        ${5:}
     </firstStatus>
 </ObjectHeader>
 ]]></content>

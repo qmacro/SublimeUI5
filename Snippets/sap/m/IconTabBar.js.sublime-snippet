@@ -1,0 +1,12 @@
+<snippet>
+    <tabTrigger>IconTabBar</tabTrigger>
+    <scope>text.html, source.js</scope>
+    <description>sap.m.IconTabBar JS</description>
+    <content><![CDATA[
+new sap.m.IconTabBar({
+    items: [
+        ${1:}
+    ]
+})
+]]></content>
+</snippet>
