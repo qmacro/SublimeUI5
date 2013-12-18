@@ -1,5 +1,5 @@
 <snippet>
-    <tabTrigger>slog</tabTrigger>
+    <tabTrigger>jslog</tabTrigger>
     <scope>text.html, source.js</scope>
     <description>jQuery.sap.log. ...</description>
 	<content><![CDATA[
