@@ -1,0 +1,40 @@
+{
+    "beers": [
+        {
+            "brewName": "India Pale Ale (IPA)",
+            "brewerName": "Goose Island Beer Co.",
+            "brewType": "English IPA",
+            "ABV": 5.9
+        },
+        {
+            "brewName": "Pint",
+            "brewerName": "Marble Beers",
+            "brewType": "Golden Ale",
+            "ABV": 5.9
+        },
+        {
+            "brewName": "Orval",
+            "brewerName": "Brasserie d'Orval",
+            "brewType": "Belgian Pale Ale",
+            "ABV": 3.9
+        },
+        {
+            "brewName": "Old Peculier",
+            "brewerName": "Theakstons",
+            "brewType": "Old Ale",
+            "ABV": 6.2
+        },
+        {
+            "brewName": "5 A.M. Saint",
+            "brewerName": "BrewDog",
+            "brewType": "American Amber / Red Ale",
+            "ABV": 5.6
+        },
+        {
+            "brewName": "90 Minute IPA",
+            "brewerName": "Dogfish Head Craft Brewery",
+            "brewType": "Imperial / Double IPA",
+            "ABV": 9.0
+        }
+    ]
+}
