@@ -5,8 +5,7 @@
     <content><![CDATA[
 <Table
     headerText="${1:headerTextProperty}"
-    items="{${2:itemsAggregation}}"
->
+    items="{${2:itemsAggregation}}">
     <columns>
         ${3:}
     </columns>

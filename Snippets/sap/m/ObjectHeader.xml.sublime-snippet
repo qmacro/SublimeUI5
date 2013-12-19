@@ -6,8 +6,7 @@
 <ObjectHeader
     title="{${1:titleProperty}}"
     number="{${2:numberProperty}}"
-    numberUnit="{${3:numberUnitProperty}}"
->
+    numberUnit="{${3:numberUnitProperty}}">
     <attributes>
         ${4:}
     </attributes>

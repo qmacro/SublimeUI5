@@ -4,8 +4,7 @@
     <description>sap.m.Page XML</description>
     <content><![CDATA[
 <Page
-    title="${1:titleProperty}"
->
+    title="${1:titleProperty}">
     ${2:}
 </Page>
 ]]></content>
