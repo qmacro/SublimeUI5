@@ -63,6 +63,6 @@ For the time being, I've fleshed out a set of configured templates, based on var
  - Whether a Component-based application approach is to be used (_C_) or not (_N_)
  - Which navigation mechanism is to be employed; one based on the EventBus (_E_), or one based on Routing (_R_)
  
-With this I've come up with short codes based on the letters above. The first template that I've created and made available as a first go is _XACE_ - XML view, App-based, with Component, using EventBus for navigation. Have a look in the [Templates](https://github.com/qmacro/SublimeUI5/tree/master/Templates) folder for more details.
+With this I've come up with short codes based on the letters above. The first template that I've created and made available as a first go is _XACE_ - XML views, App-based, with Component, using EventBus for navigation. Have a look in the [Templates](https://github.com/qmacro/SublimeUI5/tree/master/Templates) folder for more details.
 
 Documentation on how to use the templates is coming soon!
