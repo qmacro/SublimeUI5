@@ -58,11 +58,11 @@ With the STProjectMaker you can have ready-built applications created for you, h
 
 For the time being, I've fleshed out a set of configured templates, based on various UI5 application fundamentals:
 
- - Whether the views will be XML based or JavaScript based (not looking at HTML or JSON views yet) (X/J)
- - Whether the root control will be sap.m.App (for a smartphone-only style application) or sap.m.SplitApp (for a split-screen master/detail scenario, commonly found in SAP Fiori) (A/S)
- - Whether a Component-based application approach is to be used or not (C/N)
- - Which navigation mechanism is to be employed; one based on the EventBus, or one based on Routing (ER)
+ - Whether the views will be XML based (_X_) or JavaScript based (_J_) (not looking at HTML or JSON views yet)
+ - Whether the root control will be sap.m.App for a smartphone-only style application, (_A_) or sap.m.SplitApp, for a split-screen master/detail scenario, commonly found in SAP Fiori (_S_)
+ - Whether a Component-based application approach is to be used (_C_) or not (_N_)
+ - Which navigation mechanism is to be employed; one based on the EventBus (_E_), or one based on Routing (_R_)
  
-With this I've come up with short codes based on the letters above. The first template that I've created and made available as a first go is _XACE - XML view, App-based, with Component, using EventBus for navigation. Have a look in the [Templates](https://github.com/qmacro/SublimeUI5/tree/master/Templates) folder for more details.
+With this I've come up with short codes based on the letters above. The first template that I've created and made available as a first go is _XACE_ - XML view, App-based, with Component, using EventBus for navigation. Have a look in the [Templates](https://github.com/qmacro/SublimeUI5/tree/master/Templates) folder for more details.
 
 Documentation on how to use the templates is coming soon!
