@@ -3,20 +3,20 @@ SublimeUI5
 
 Sublime Text 2 Package for SAPUI5/OpenUI5
 
-Basic instructions:
-
+Basic instructions
+------------------
  - go to your Sublime Text 2/Packages directory
  - git clone this repo
  - profit!
 
 Introduction
-============
+------------
 
 [SAPUI5](https://sapui5.hana.ondemand.com/sdk/) (Open Source version: [OpenUI5](sap.github.io/openui5/)) 
 is a UI framework for modern HTML5 applications.  
 
 Whatever others might tell you, you don't need to use Eclipse to develop apps in SAPUI5. If, like me, you
-use Sublime Text, you can use this package to help you. It contains [snippets](http://docs.sublimetext.info/en/sublime-text-3/extensibility/snippets.html) and UI5 templates, powered by the [STProjectMaker] (https://github.com/bit101/STProjectMaker) plugin, to make writing code by hand easier. 
+use Sublime Text, you can use this package to help you. It contains _snippets_ and _templates_ for UI5. For more information on Sublime Text snippets, see the [snippet documentation](http://docs.sublimetext.info/en/sublime-text-3/extensibility/snippets.html), and for more information on templates, see the [STProjectMaker](https://github.com/bit101/STProjectMaker) plugin, which I use to power the templates. Both snippets and templates make writing code by hand easier. At least for me.
 
 Screencast
 ----------
@@ -24,7 +24,6 @@ I've recorded a quick screencast to introduce you to the snippet and template us
 
 Snippets
 --------
-
 There are JavaScript, HTML and XML snippets, the latter being for building views in XML. I've made a stab at organising them along the same lines as the UI5 namespaces, with extra extensions to denote language or format. 
 
 For example, the snippet for the XML view based control 'IconTabBar' is in the Snippets/sap/m/ folder and is called [https://github.com/qmacro/SublimeUI5/blob/master/Snippets/sap/m/IconTabBar.xml.sublime-snippet](IconTabBar.xml.sublime-snippet). All Sublime Text snippets end with the 'sublime-snippet' extension; I've added 'xml' to denote that this one is XML, and the IconTabBar camelcasing follows the actual control name standard too. 
@@ -52,3 +51,18 @@ There are also some snippets in the jQuery.sap space, notably a few 'utility' on
 
 Note that regardless of which folder or subfolder any given snippet is in, Sublime Text will find it and make it available to you.
 
+
+Templates
+---------
+With the STProjectMaker you can have ready-built applications created for you, having specified where it should live, and some parameters that you might want to use (to replace placeholder variables for, say, your namespace, for example).
+
+For the time being, I've fleshed out a set of configured templates, based on various UI5 application fundamentals:
+
+ - Whether the views will be XML based or JavaScript based (not looking at HTML or JSON views yet) (X/J)
+ - Whether the root control will be sap.m.App (for a smartphone-only style application) or sap.m.SplitApp (for a split-screen master/detail scenario, commonly found in SAP Fiori) (A/S)
+ - Whether a Component-based application approach is to be used or not (C/N)
+ - Which navigation mechanism is to be employed; one based on the EventBus, or one based on Routing (ER)
+ 
+With this I've come up with short codes based on the letters above. The first template that I've created and made available as a first go is [https://github.com/qmacro/SublimeUI5/tree/master/Templates/UI5%20XACE%20-%20XML%20App%20Component%20EventBus](XACE) - XML view, App-based, with Component, using EventBus for navigation. 
+
+Documentation on how to use the templates is coming soon!
