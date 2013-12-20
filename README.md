@@ -58,7 +58,7 @@ With the STProjectMaker you can have ready-built applications created for you, h
 
 For the time being, I've fleshed out a set of configured templates, based on various UI5 application fundamentals:
 
- - Whether the views will be XML based (_X_) or JavaScript based (_J_) (not looking at HTML or JSON views yet)
+ - Whether the views will be XML based (*X*) or JavaScript based (_J_) (not looking at HTML or JSON views yet)
  - Whether the root control will be sap.m.App for a smartphone-only style application, (_A_) or sap.m.SplitApp, for a split-screen master/detail scenario, commonly found in SAP Fiori (_S_)
  - Whether a Component-based application approach is to be used (_C_) or not (_N_)
  - Which navigation mechanism is to be employed; one based on the EventBus (_E_), or one based on Routing (_R_)
