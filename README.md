@@ -20,13 +20,13 @@ use Sublime Text, you can use this package to help you. It contains _snippets_ a
 
 Screencast
 ----------
-I've recorded a quick screencast to introduce you to the snippet and template usage with SublimeUI5: [https://www.youtube.com/watch?v=ts0EogQZvS8](SublimeUI5 - Snippets & Templates for SAPUI5/OpenUI5).
+I've recorded a quick screencast to introduce you to the snippet and template usage with SublimeUI5: [SublimeUI5 - Snippets & Templates for SAPUI5/OpenUI5](https://www.youtube.com/watch?v=ts0EogQZvS8).
 
 Snippets
 --------
 There are JavaScript, HTML and XML snippets, the latter being for building views in XML. I've made a stab at organising them along the same lines as the UI5 namespaces, with extra extensions to denote language or format. 
 
-For example, the snippet for the XML view based control 'IconTabBar' is in the Snippets/sap/m/ folder and is called [https://github.com/qmacro/SublimeUI5/blob/master/Snippets/sap/m/IconTabBar.xml.sublime-snippet](IconTabBar.xml.sublime-snippet). All Sublime Text snippets end with the 'sublime-snippet' extension; I've added 'xml' to denote that this one is XML, and the IconTabBar camelcasing follows the actual control name standard too. 
+For example, the snippet for the XML view based control 'IconTabBar' is in the Snippets/sap/m/ folder and is called [IconTabBar.xml.sublime-snippet](https://github.com/qmacro/SublimeUI5/blob/master/Snippets/sap/m/IconTabBar.xml.sublime-snippet). All Sublime Text snippets end with the 'sublime-snippet' extension; I've added 'xml' to denote that this one is XML, and the IconTabBar camelcasing follows the actual control name standard too. 
 
 Here's what the snippet looks like:
 
@@ -45,9 +45,9 @@ Here's what the snippet looks like:
 
 You can see the actual content that will be inserted (within the `<![CDATA[...]]>` section) and there's a placeholder which you'll be able to tab to and enter what you want, after you've invoked the snippet. Have a look at the screencase mentioned earlier to see how snippet insertion works. The snippet is only triggered in HTML and JavaScript contexts (see the `<scope/>` element), and to trigger it, you type "IconTabBar" and hit the <tab> key (see the `<tabTrigger/>` element).
 
-There's also, in the same folder, [https://github.com/qmacro/SublimeUI5/blob/master/Snippets/sap/m/IconTabBar.js.sublime-snippet](IconTabBar.js.sublime-snippet). That's a JavaScript equivalent. 
+There's also, in the same folder, [IconTabBar.js.sublime-snippet](https://github.com/qmacro/SublimeUI5/blob/master/Snippets/sap/m/IconTabBar.js.sublime-snippet). That's a JavaScript equivalent. 
 
-There are also some snippets in the jQuery.sap space, notably a few 'utility' ones such as [https://github.com/qmacro/SublimeUI5/blob/master/Snippets/jQuery/sap/log.js.sublime-snippet](log.js.sublime-snippet), which will help you generate a `jQuery.sap.log.error|warning|info|debug('...')` statement. 
+There are also some snippets in the jQuery.sap space, notably a few 'utility' ones such as [log.js.sublime-snippet](https://github.com/qmacro/SublimeUI5/blob/master/Snippets/jQuery/sap/log.js.sublime-snippet), which will help you generate a `jQuery.sap.log.error|warning|info|debug('...')` statement. 
 
 Note that regardless of which folder or subfolder any given snippet is in, Sublime Text will find it and make it available to you.
 
@@ -63,6 +63,6 @@ For the time being, I've fleshed out a set of configured templates, based on var
  - Whether a Component-based application approach is to be used or not (C/N)
  - Which navigation mechanism is to be employed; one based on the EventBus, or one based on Routing (ER)
  
-With this I've come up with short codes based on the letters above. The first template that I've created and made available as a first go is _XACE - XML view, App-based, with Component, using EventBus for navigation. Have a look in the [https://github.com/qmacro/SublimeUI5/tree/master/Templates](Templates) folder for more details.
+With this I've come up with short codes based on the letters above. The first template that I've created and made available as a first go is _XACE - XML view, App-based, with Component, using EventBus for navigation. Have a look in the [Templates](https://github.com/qmacro/SublimeUI5/tree/master/Templates) folder for more details.
 
 Documentation on how to use the templates is coming soon!
