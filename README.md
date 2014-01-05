@@ -13,7 +13,7 @@ Introduction
 ------------
 
 [SAPUI5](https://sapui5.hana.ondemand.com/sdk/) (Open Source version: [OpenUI5](sap.github.io/openui5/)) 
-is a UI framework for modern HTML5 applications.  
+is a UI framework for modern HTML5 applications.
 
 Whatever others might tell you, you don't need to use Eclipse to develop apps in SAPUI5. If, like me, you
 use Sublime Text, you can use this package to help you. It contains _snippets_ and _templates_ for UI5. For more information on Sublime Text snippets, see the [snippet documentation](http://docs.sublimetext.info/en/sublime-text-3/extensibility/snippets.html), and for more information on templates, see the [STProjectMaker](https://github.com/bit101/STProjectMaker) plugin, which I use to power the templates. Both snippets and templates make writing code by hand easier. At least for me.
@@ -63,6 +63,12 @@ For the time being, I've fleshed out a set of configured templates, based on var
  - Whether a Component-based application approach is to be used (_C_) or not (_N_)
  - Which navigation mechanism is to be employed; one based on the EventBus (_E_), or one based on Routing (_R_)
  
-With this I've come up with short codes based on the letters above. The first template that I've created and made available as a first go is _XACE_ - XML views, App-based, with Component, using EventBus for navigation. Have a look in the [Templates](https://github.com/qmacro/SublimeUI5/tree/master/Templates) folder for more details.
+With this I've come up with short codes based on the letters above. The first couple of templates that I've created and made available as a first go are: 
+
+ - _XACE_ - XML views, App-based, with Component, using EventBus for navigation.
+
+ - _XSCE_ - XML views, SplitApp-based, with Component, using EventBus for navigation.
+
+ Have a look in the [Templates](https://github.com/qmacro/SublimeUI5/tree/master/Templates) folder for more details.
 
 Documentation on how to use the templates is coming soon!
