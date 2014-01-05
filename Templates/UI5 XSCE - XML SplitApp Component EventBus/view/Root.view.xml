@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<core:View
+    controllerName="${namespace}.view.Root"
+    displayBlock="true"
+    xmlns:core="sap.ui.core"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+
+    <SplitApp id="idRoot">
+        <masterPages>
+            <mvc:XMLView viewName="${namespace}.view.Master" id="idViewMaster" />
+        </masterPages>
+        <detailPages>
+            <mvc:XMLView viewName="${namespace}.view.Empty" id="idViewEmpty" />
+            <mvc:XMLView viewName="${namespace}.view.Detail" id="idViewDetail" />
+        </detailPages>
+    </SplitApp>
+
+</core:View>

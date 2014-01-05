@@ -1,0 +1,5 @@
+<core:View
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core" >
+    <Page />
+</core:View>

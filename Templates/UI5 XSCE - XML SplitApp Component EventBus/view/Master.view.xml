@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<core:View
+    controllerName="${namespace}.view.Master"
+    xmlns:core="sap.ui.core"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+
+    <Page title="{i18n>FirstPageTitle}">
+        <List
+            id="idListBeers"
+            items="{/beers}"
+            mode="SingleSelectMaster"
+            select="handleListSelect">
+            <StandardListItem
+                title="{brewName}"
+                description="{brewerName}" />
+        </List>
+    </Page>
+
+</core:View>
