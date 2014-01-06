@@ -1,7 +1,7 @@
 <snippet>
     <tabTrigger>jslog</tabTrigger>
     <scope>text.html, source.js</scope>
-    <description>jQuery.sap.log. ...</description>
+    <description>jQuery.sap.log ...</description>
 	<content><![CDATA[
 jQuery.sap.log.${1:info}("${2:logmessage}");
 ]]></content>
