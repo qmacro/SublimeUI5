@@ -8,7 +8,7 @@ Basic instructions
  - Go to your Sublime Text 2(3)/Packages directory (Check Preferences -> Browse Packages to find the location)
  - Git clone this repo.
  - Install STProjectMaker to enable templating. Ctrl-Shift-P Install STProjectMaker.
- - Add the following to the STProjectMaker User settings (Preferences -> Package Settings -> Project Maker) so that it can find the SublimeUI5 templates: { "template_path": "c:\\sublime\\Data\\Packages\\SublimeUI5\\Templates\\" }. Note that escaping of slashes is necessary on Windows.
+ - Add the following to the STProjectMaker User settings (Preferences -> Package Settings -> Project Maker) so that it can find the SublimeUI5 templates: { "template_path": "c:\\\\sublime\\\\Data\\\\Packages\\\\SublimeUI5\\\\Templates\\\\" }. Note that escaping of slashes is necessary on Windows.
  - Project -> Create Project or Ctrl-Shift-N to select a template.
  - Profit!
 
@@ -18,7 +18,7 @@ Introduction
 [SAPUI5](https://sapui5.hana.ondemand.com/sdk/) (Open Source version: [OpenUI5](sap.github.io/openui5/)) 
 is a UI framework for modern HTML5 applications.
 
-Works in Sublime Test 2 and Sublime Test 3.
+Works in Sublime Text 2 and Sublime Text 3.
 
 Whatever others might tell you, you don't need to use Eclipse to develop apps in SAPUI5. If, like me, you
 use Sublime Text, you can use this package to help you. It contains _snippets_ and _templates_ for UI5. For more information on Sublime Text snippets, see the [snippet documentation](http://docs.sublimetext.info/en/sublime-text-3/extensibility/snippets.html), and for more information on templates, see the [STProjectMaker](https://github.com/bit101/STProjectMaker) plugin, which I use to power the templates. Both snippets and templates make writing code by hand easier. At least for me.
