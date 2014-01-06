@@ -8,7 +8,7 @@ Basic instructions
  - Go to your Sublime Text 2(3)/Packages directory (Check Preferences -> Browse Packages to find the location)
  - Git clone this repo.
  - Install STProjectMaker to enable templating. Ctrl-Shift-P Install STProjectMaker.
- - Add the following to the STProjectMaker User settings (Preferences -> Package Settings -> Project Maker) so that it can find the SublimeUI5 templates: { "template_path": "c:\\\\<sublime_install>\\\\Data\\\\Packages\\\\SublimeUI5\\\\Templates\\\\" }. Note that escaping of slashes is necessary on Windows.
+ - Add the following to the STProjectMaker User settings (Preferences -> Package Settings -> Project Maker) so that it can find the SublimeUI5 templates: { "template_path": "c:\\\\[sublime_install]\\\\Data\\\\Packages\\\\SublimeUI5\\\\Templates\\\\" }. Note that escaping of slashes is necessary on Windows.
  - Project -> Create Project or Ctrl-Shift-N to select a template.
  - Profit!
 
