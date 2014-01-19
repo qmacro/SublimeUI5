@@ -1,0 +1,8 @@
+<snippet>
+	 <tabTrigger>sapbyId</tabTrigger>
+    <scope>text.html, source.js</scope>
+    <description>sap.ui.getCore().byId ...</description>
+	<content><![CDATA[
+sap.ui.getCore().byId("${1:controlId}")
+]]></content>
+</snippet>
