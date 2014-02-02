@@ -5,7 +5,6 @@
     <content><![CDATA[
 new sap.m.List({
     id: "${1:idList}",
-    items: "${2:itemsAggregation}",
     mode: "${3:SingleSelectMaster}",
     select: "${4:handleListSelect}"
 })
