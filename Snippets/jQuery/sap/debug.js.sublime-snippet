@@ -1,0 +1,8 @@
+<snippet>
+    <tabTrigger>jsdebug</tabTrigger>
+    <scope>text.html, source.js</scope>
+    <description>jQuery.sap.debug(true) ...</description>
+	<content><![CDATA[
+jQuery.sap.debug(true);
+]]></content>
+</snippet>
