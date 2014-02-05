@@ -6,7 +6,9 @@
 new sap.m.List({
     id: "${1:idList}",
     mode: "${3:SingleSelectMaster}",
-    select: "${4:handleListSelect}"
+    select: function(oEvent) {
+    	$0
+    }
 })
 ]]></content>
 </snippet>
