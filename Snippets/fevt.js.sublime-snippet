@@ -1,0 +1,10 @@
+<snippet>
+    <tabTrigger>fevt</tabTrigger>
+    <scope>text.html, source.js</scope>
+    <description>function(oEvent) {...}</description>
+    <content><![CDATA[
+function(oEvent) {
+    $0
+}${1:}
+]]></content>
+</snippet>
