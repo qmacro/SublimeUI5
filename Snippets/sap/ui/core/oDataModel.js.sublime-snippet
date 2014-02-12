@@ -1,0 +1,8 @@
+<snippet>
+    <tabTrigger>sapoDataModel</tabTrigger>
+    <scope>text.html, source.js</scope>
+    <description>sap.ui.model.odata ...</description>
+	<content><![CDATA[
+sap.ui.model.odata.ODataModel(${1:uri},${2:true});
+]]></content>
+</snippet>

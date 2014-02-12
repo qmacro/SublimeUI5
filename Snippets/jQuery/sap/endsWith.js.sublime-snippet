@@ -1,0 +1,8 @@
+<snippet>
+    <tabTrigger>jsendswith</tabTrigger>
+    <scope>text.html, source.js</scope>
+    <description>jQuery.sap.endsWith ...</description>
+	<content><![CDATA[
+jQuery.sap.endsWith(${1:string},"${2:endsWith}")
+]]></content>
+</snippet>
