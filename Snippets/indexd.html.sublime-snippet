@@ -1,0 +1,35 @@
+<snippet>
+    <tabTrigger>indexd</tabTrigger>
+    <scope>text.html</scope>
+    <description>sap.ui.commons (aka desktop) focused index file</description>
+    <content><![CDATA[
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta charset="UTF-8">
+
+        <title>${1:App Title}</title>
+
+        <script id="sap-ui-bootstrap" 
+                type="text/javascript"
+                src="/sapui5/latest/libs/resources/sap-ui-core.js"
+                data-sap-ui-theme="${2:sap_goldreflection}"
+                data-sap-ui-libs="${3:sap.ui.commons,sap.ui.table}"
+                data-sap-ui-xx-bindingSyntax="${5:complex}"
+        >
+        </script>
+
+        <script>
+
+        $0
+
+        </script>
+    </head>
+
+    <body class="sapUiBody" role="application">
+        <div id="content"></div>
+    </body>
+</html>
+]]></content>
+</snippet>
