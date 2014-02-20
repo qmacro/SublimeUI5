@@ -13,7 +13,7 @@
 
         <script id="sap-ui-bootstrap" 
                 type="text/javascript"
-                src="/sapui5/latest/libs/resources/sap-ui-core.js"
+                src="/sapui5/latest/resources/sap-ui-core.js"
                 data-sap-ui-theme="${2:sap_bluecrystal}"
                 data-sap-ui-libs="${3:sap.m}"
                 data-sap-ui-xx-bindingSyntax="${5:complex}"
