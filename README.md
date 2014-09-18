@@ -15,7 +15,7 @@ Basic instructions
 Introduction
 ------------
 
-[SAPUI5](https://sapui5.hana.ondemand.com/sdk/) (Open Source version: [OpenUI5](sap.github.io/openui5/)) 
+[SAPUI5](https://sapui5.hana.ondemand.com/sdk/) (Open Source version: [OpenUI5](http://sap.github.io/openui5/)) 
 is a UI framework for modern HTML5 applications.
 
 Works in Sublime Text 2 and Sublime Text 3.
