@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+        <title>..:: My Launchpad ::..</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script
+				src="../../../openui5-sdk/resources/sap-ui-core.js" 
+				id="sap-ui-bootstrap"
+				data-sap-ui-libs="sap.m"
+				data-sap-ui-theme="sap_bluecrystal">
+		</script>
+		
+ 		<!-- alternative SAPUI5/OpenUI5 locations
+		
+		//OpenUI5
+		src="https://openui5.netweaver.ondemand.com/resources/sap-ui-core.js"
+
+		//use SAPUI5 from SAP HANACloud
+		src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+
+		//within Eclipse with SAP UI Development Toolkit for HTML5
+		src="resources/sap-ui-core.js"
+	
+		//serve locally with Node.js 
+		src="http://localhost:8888/sapui5/1.18.11/resources/sap-ui-core.js"
+		-->
+
+
+		<script>
+			sap.ui.localResources("view");
+
+			// set i18n model
+	        var i18nModel = new sap.ui.model.resource.ResourceModel({
+	            bundleUrl : "i18n/messageBundle.properties"
+	        });
+
+	        sap.ui.getCore().setModel(i18nModel, "i18n");
+
+	        var mainModel = new sap.ui.model.json.JSONModel("model/launchpad.json");
+			
+			var app = new sap.m.App("app_launchpad", {
+				initialPage:"view_launchpad",
+				height: "100%",
+				width: "100%",
+			});
+
+			var view = sap.ui.view({id:"view_launchpad", viewName:"view.launchpad", type:sap.ui.core.mvc.ViewType.JS});
+			sap.ui.getCore().setModel(mainModel);
+
+			app.addPage(view);
+			app.placeAt("content");
+			
+			</script>
+
+	</head>
+	<body class="sapUiBody" role="application">
+		<div id="content"></div>
+	</body>
+</html>
