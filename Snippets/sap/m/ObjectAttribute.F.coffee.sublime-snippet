@@ -1,0 +1,11 @@
+<snippet>
+    <tabTrigger>ObjectAttributeF</tabTrigger>
+    <scope>source.coffee</scope>
+    <description>sap.m.ObjectAttribute with Formatter coffee</description>
+    <content><![CDATA[
+new sap.m.ObjectAttribute
+    text:
+        path: "${1:textProperty}"
+        formatter: "${2:formatter.identifier}"
+]]></content>
+</snippet>

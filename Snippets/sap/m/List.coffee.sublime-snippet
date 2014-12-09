@@ -1,0 +1,12 @@
+<snippet>
+    <tabTrigger>List</tabTrigger>
+    <scope>source.coffee</scope>
+    <description>sap.m.List coffee</description>
+    <content><![CDATA[
+new sap.m.List
+    id: "${1:idList}"
+    mode: "${3:SingleSelectMaster}"
+    select: (oEvent) ->
+        $0
+]]></content>
+</snippet>

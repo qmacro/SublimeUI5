@@ -1,0 +1,13 @@
+<snippet>
+    <tabTrigger>Table</tabTrigger>
+    <scope>source.coffee</scope>
+    <description>sap.m.Table coffee</description>
+    <content><![CDATA[
+new sap.m.Table
+    headerText: "${1:headerTextProperty}"
+    items: "{${2:itemsAggregation}}"
+    columns: [
+        ${3:}
+    ]
+]]></content>
+</snippet>
