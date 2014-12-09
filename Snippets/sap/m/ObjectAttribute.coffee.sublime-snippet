@@ -1,0 +1,9 @@
+<snippet>
+    <tabTrigger>ObjectAttribute</tabTrigger>
+    <scope>source.coffee</scope>
+    <description>sap.m.ObjectAttribute coffee</description>
+    <content><![CDATA[
+new sap.m.ObjectAttribute
+    text: "{${1:textProperty}}"
+]]></content>
+</snippet>

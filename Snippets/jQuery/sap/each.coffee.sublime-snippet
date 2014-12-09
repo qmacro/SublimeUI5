@@ -1,8 +1,8 @@
 <snippet>
     <tabTrigger>jseach</tabTrigger>
-    <scope>text.html, source.js</scope>
+    <scope>source.coffee</scope>
     <description>jQuery.sap.each ...</description>
   <content><![CDATA[
-jQuery.sap.each(${1:array}, function(${2:item}) { $0 });
+jQuery.sap.each(${1:array}, function(${2:item}) { $0 })
 ]]></content>
 </snippet>

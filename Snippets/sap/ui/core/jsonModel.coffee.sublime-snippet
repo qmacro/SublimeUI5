@@ -1,0 +1,8 @@
+<snippet>
+    <tabTrigger>sapJSONModel</tabTrigger>
+    <scope>source.coffee</scope>
+    <description>sap.ui.model.json.JSONModel ...</description>
+  <content><![CDATA[
+sap.ui.model.json.JSONModel(${1:data})
+]]></content>
+</snippet>
