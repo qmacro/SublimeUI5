@@ -1,0 +1,9 @@
+<snippet>
+    <tabTrigger>HTML</tabTrigger>
+    <scope>source.coffee</scope>
+    <description>sap.ui.core.HTML coffee</description>
+    <content><![CDATA[
+new sap.ui.core.HTML
+  content: "${1}"
+]]></content>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+    <tabTrigger>Button</tabTrigger>
+    <scope>source.coffee</scope>
+    <description>sap.m.Button coffee</description>
+    <content><![CDATA[
+new sap.m.Button
+  id:"${1:unique-button-id}"
+  text: "${2:Click Me!}"
+  press: ->
+    ${3:doSomething()}
+]]></content>
+</snippet>
