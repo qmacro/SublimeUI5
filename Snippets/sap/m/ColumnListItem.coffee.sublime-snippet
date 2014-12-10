@@ -1,11 +1,11 @@
 <snippet>
-    <tabTrigger>ColumnListItem</tabTrigger>
-    <scope>source.coffee</scope>
-    <description>sap.m.ColumnListItem coffee</description>
-    <content><![CDATA[
+	<tabTrigger>ColumnListItem</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>sap.m.ColumnListItem coffee</description>
+	<content><![CDATA[
 new sap.m.ColumnListItem
-  cells: [
-    ${1}
-  ]
+	cells: [
+		${1}
+	]
 ]]></content>
 </snippet>

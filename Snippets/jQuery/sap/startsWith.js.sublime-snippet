@@ -1,8 +1,8 @@
 <snippet>
-    <tabTrigger>jsstartswith</tabTrigger>
-    <scope>text.html, source.js, source.coffee</scope>
-    <description>jQuery.sap.startsWith ...</description>
-  <content><![CDATA[
+	<tabTrigger>jsstartswith</tabTrigger>
+	<scope>text.html, source.js, source.coffee</scope>
+	<description>jQuery.sap.startsWith ...</description>
+	<content><![CDATA[
 jQuery.sap.startsWith(${1:string},"${2:startsWith}")
 ]]></content>
 </snippet>

@@ -1,9 +1,9 @@
 <snippet>
-    <tabTrigger>Page</tabTrigger>
-    <scope>source.coffee</scope>
-    <description>sap.m.Page coffee</description>
-    <content><![CDATA[
+	<tabTrigger>Page</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>sap.m.Page coffee</description>
+	<content><![CDATA[
 new sap.m.Page
-    title: "${1:titleProperty}"
+	title: "${1:titleProperty}"
 ]]></content>
 </snippet>

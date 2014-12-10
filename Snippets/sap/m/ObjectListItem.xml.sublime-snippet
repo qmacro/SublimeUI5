@@ -1,19 +1,19 @@
 <snippet>
-    <tabTrigger>ObjectListItem</tabTrigger>
-    <scope>text.xml</scope>
-    <description>sap.m.ObjectListItem XML</description>
-    <content><![CDATA[
+	<tabTrigger>ObjectListItem</tabTrigger>
+	<scope>text.xml</scope>
+	<description>sap.m.ObjectListItem XML</description>
+	<content><![CDATA[
 <ObjectListItem
-    press="${1:handleObjectListItemPress}"
-    title="{${2:titleProperty}}"
-    number="{${3:numberProperty}}"
-    numberUnit="{${4:numberUnitProperty}}">
-    <attributes>
-        ${5:}
-    </attributes>
-    <firstStatus>
-        ${6:}
-    </firstStatus>
+	press="${1:handleObjectListItemPress}"
+	title="{${2:titleProperty}}"
+	number="{${3:numberProperty}}"
+	numberUnit="{${4:numberUnitProperty}}">
+	<attributes>
+		${5:}
+	</attributes>
+	<firstStatus>
+		${6:}
+	</firstStatus>
 </ObjectListItem>
 ]]></content>
 </snippet>

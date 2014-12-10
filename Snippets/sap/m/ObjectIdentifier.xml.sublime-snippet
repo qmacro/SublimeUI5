@@ -1,10 +1,10 @@
 <snippet>
-    <tabTrigger>ObjectIdentifier</tabTrigger>
-    <scope>text.xml</scope>
-    <description>sap.m.ObjectIdentifier XML</description>
-    <content><![CDATA[
+	<tabTrigger>ObjectIdentifier</tabTrigger>
+	<scope>text.xml</scope>
+	<description>sap.m.ObjectIdentifier XML</description>
+	<content><![CDATA[
 <ObjectIdentifier
-    title="{${1:titleProperty}}"
-    text="{${2:textProperty}}" />
+	title="{${1:titleProperty}}"
+	text="{${2:textProperty}}" />
 ]]></content>
 </snippet>

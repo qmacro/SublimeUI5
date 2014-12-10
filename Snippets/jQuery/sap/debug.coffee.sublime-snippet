@@ -1,8 +1,8 @@
 <snippet>
-    <tabTrigger>jsdebug</tabTrigger>
-    <scope>source.coffee</scope>
-    <description>jQuery.sap.debug(true) ...</description>
-  <content><![CDATA[
+	<tabTrigger>jsdebug</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>jQuery.sap.debug(true) ...</description>
+	<content><![CDATA[
 jQuery.sap.debug(true)
 ]]></content>
 </snippet>

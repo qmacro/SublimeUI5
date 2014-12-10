@@ -1,14 +1,14 @@
 <snippet>
-    <tabTrigger>List</tabTrigger>
-    <scope>text.html, source.js</scope>
-    <description>sap.m.List JS</description>
-    <content><![CDATA[
+	<tabTrigger>List</tabTrigger>
+	<scope>text.html, source.js</scope>
+	<description>sap.m.List JS</description>
+	<content><![CDATA[
 new sap.m.List({
-    id: "${1:idList}",
-    mode: "${3:SingleSelectMaster}",
-    select: function(oEvent) {
-    	$0
-    }
+	id: "${1:idList}",
+	mode: "${3:SingleSelectMaster}",
+	select: function(oEvent) {
+		$0
+	}
 })
 ]]></content>
 </snippet>

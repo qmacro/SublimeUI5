@@ -1,10 +1,10 @@
 <snippet>
-    <tabTrigger>StandardListItem</tabTrigger>
-    <scope>source.coffee</scope>
-    <description>sap.m.StandardListItem coffee</description>
-    <content><![CDATA[
+	<tabTrigger>StandardListItem</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>sap.m.StandardListItem coffee</description>
+	<content><![CDATA[
 new sap.m.StandardListItem
-    title: "{${1:titleProperty}}"
-    description: "{${2:descriptionProperty}}"
+	title: "{${1:titleProperty}}"
+	description: "{${2:descriptionProperty}}"
 ]]></content>
 </snippet>

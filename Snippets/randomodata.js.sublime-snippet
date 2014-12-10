@@ -1,15 +1,15 @@
 <snippet>
-    <tabTrigger>randomodata</tabTrigger>
-    <scope>text.html, source.js</scope>
-    <description>Random oData JS</description>
-    <content><![CDATA[
+	<tabTrigger>randomodata</tabTrigger>
+	<scope>text.html, source.js</scope>
+	<description>Random oData JS</description>
+	<content><![CDATA[
 var mData = {
-    people: [
-        { name: "Kate",  age: 44, pseudoNumber: "23", city: "London" },
-        { name: "Julie", age: 40, pseudoNumber: "95", city: "Birmingham" },
-        { name: "Bob",   age: 59, pseudoNumber: "41", city: "Manchester" },
-        { name: "Alan",  age: 31, pseudoNumber: "7",  city: "Aberdeen" }
-    ]
+	people: [
+		{ name: "Kate",  age: 44, pseudoNumber: "23", city: "London" },
+		{ name: "Julie", age: 40, pseudoNumber: "95", city: "Birmingham" },
+		{ name: "Bob",   age: 59, pseudoNumber: "41", city: "Manchester" },
+		{ name: "Alan",  age: 31, pseudoNumber: "7",  city: "Aberdeen" }
+	]
 };
 $0
 ]]></content>

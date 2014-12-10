@@ -1,9 +1,9 @@
 <snippet>
-    <tabTrigger>Column</tabTrigger>
-    <scope>source.coffee</scope>
-    <description>sap.m.Column coffee</description>
-    <content><![CDATA[
+	<tabTrigger>Column</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>sap.m.Column coffee</description>
+	<content><![CDATA[
 new sap.m.Column
-  header: "${1:new sap.m.Label({text: "${2}"})}"
+	header: "${1:new sap.m.Label({text: "${2}"})}"
 ]]></content>
 </snippet>

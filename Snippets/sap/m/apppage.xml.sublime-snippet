@@ -1,12 +1,12 @@
 <snippet>
-    <tabTrigger>apppage</tabTrigger>
-    <scope>text.xml</scope>
-    <description>sap.m.App>Page XML</description>
-    <content><![CDATA[
+	<tabTrigger>apppage</tabTrigger>
+	<scope>text.xml</scope>
+	<description>sap.m.App>Page XML</description>
+	<content><![CDATA[
 <App>
-    <Page title="${1:title}">
-        $0
-    </Page>
+	<Page title="${1:title}">
+		$0
+	</Page>
 </App>
 ]]></content>
 </snippet>

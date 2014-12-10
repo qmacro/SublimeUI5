@@ -1,15 +1,15 @@
 <snippet>
-    <tabTrigger>ObjectHeader</tabTrigger>
-    <scope>source.coffee</scope>
-    <description>sap.m.ObjectHeader coffee</description>
-    <content><![CDATA[
+	<tabTrigger>ObjectHeader</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>sap.m.ObjectHeader coffee</description>
+	<content><![CDATA[
 new sap.m.ObjectHeader
-    title: "{${1:titleProperty}}"
-    number: "{${2:numberProperty}}"
-    numberUnit: "{${3:numberUnitProperty}}"
-    attributes: [
-        ${4:}
-    ]
-    firstStatus: ${5:}
+	title: "{${1:titleProperty}}"
+	number: "{${2:numberProperty}}"
+	numberUnit: "{${3:numberUnitProperty}}"
+	attributes: [
+		${4:}
+	]
+	firstStatus: ${5:}
 ]]></content>
 </snippet>

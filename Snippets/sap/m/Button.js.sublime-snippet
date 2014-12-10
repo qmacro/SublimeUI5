@@ -1,14 +1,14 @@
 <snippet>
-    <tabTrigger>Button</tabTrigger>
-    <scope>text.html, source.js</scope>
-    <description>sap.m.Button JS</description>
-    <content><![CDATA[
+	<tabTrigger>Button</tabTrigger>
+	<scope>text.html, source.js</scope>
+	<description>sap.m.Button JS</description>
+	<content><![CDATA[
 new sap.m.Button({
-  id:"${1:id}",
-  text: "${2:text}",
-  press: function() {
-    ${3}
-  }
+	id:"${1:id}",
+	text: "${2:text}",
+	press: function() {
+		${3}
+	}
 })
 ]]></content>
 </snippet>

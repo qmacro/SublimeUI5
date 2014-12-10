@@ -1,14 +1,14 @@
 <snippet>
-    <tabTrigger>Table</tabTrigger>
-    <scope>text.xml</scope>
-    <description>sap.m.Table XML</description>
-    <content><![CDATA[
+	<tabTrigger>Table</tabTrigger>
+	<scope>text.xml</scope>
+	<description>sap.m.Table XML</description>
+	<content><![CDATA[
 <Table
-    headerText="${1:headerTextProperty}"
-    items="{${2:itemsAggregation}}">
-    <columns>
-        ${3:}
-    </columns>
+	headerText="${1:headerTextProperty}"
+	items="{${2:itemsAggregation}}">
+	<columns>
+		${3}
+	</columns>
 </Table>
 ]]></content>
 </snippet>

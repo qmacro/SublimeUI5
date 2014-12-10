@@ -1,11 +1,11 @@
 <snippet>
-    <tabTrigger>SearchField</tabTrigger>
-    <scope>text.html, source.js</scope>
-    <description>sap.m.SearchField JS</description>
-    <content><![CDATA[
+	<tabTrigger>SearchField</tabTrigger>
+	<scope>text.html, source.js</scope>
+	<description>sap.m.SearchField JS</description>
+	<content><![CDATA[
 new sap.m.SearchField({
-    search: "${1:handleSearch}",
-    width: "${2:100%}"
+	search: "${1:handleSearch}",
+	width: "${2:100%}"
 })
 ]]></content>
 </snippet>

@@ -1,11 +1,11 @@
 <snippet>
-    <tabTrigger>IconTabFilter</tabTrigger>
-    <scope>text.html, source.js</scope>
-    <description>sap.m.IconTabFilter JS</description>
-    <content><![CDATA[
+	<tabTrigger>IconTabFilter</tabTrigger>
+	<scope>text.html, source.js</scope>
+	<description>sap.m.IconTabFilter JS</description>
+	<content><![CDATA[
 new sap.m.IconTabFilter({
-    text: "${1:textProperty}",
-    icon: "sap-icon://${2:icon}"
+	text: "${1:textProperty}",
+	icon: "sap-icon://${2:icon}"
 })
 ]]></content>
 </snippet>

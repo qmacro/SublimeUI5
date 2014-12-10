@@ -1,13 +1,13 @@
 <snippet>
-    <tabTrigger>ObjectAttributeF</tabTrigger>
-    <scope>text.html, source.js</scope>
-    <description>sap.m.ObjectAttribute with Formatter JS</description>
-    <content><![CDATA[
+	<tabTrigger>ObjectAttributeF</tabTrigger>
+	<scope>text.html, source.js</scope>
+	<description>sap.m.ObjectAttribute with Formatter JS</description>
+	<content><![CDATA[
 new sap.m.ObjectAttribute({
-    text: {
-        path: "${1:textProperty}",
-        formatter: "${2:formatter.identifier}"
-    }
+	text: {
+		path: "${1:textProperty}",
+		formatter: "${2:formatter.identifier}"
+	}
 })
 ]]></content>
 </snippet>

@@ -1,11 +1,11 @@
 <snippet>
-    <tabTrigger>ComponentContainer</tabTrigger>
-    <scope>text.html, source.js</scope>
-    <description>sap.ui.core.ComponentContainer JS</description>
-    <content><![CDATA[
+	<tabTrigger>ComponentContainer</tabTrigger>
+	<scope>text.html, source.js</scope>
+	<description>sap.ui.core.ComponentContainer JS</description>
+	<content><![CDATA[
 new sap.ui.core.ComponentContainer({
-    height: "${1:100%}",
-    name: "${2:component.identifier}"
+	height: "${1:100%}",
+	name: "${2:component.identifier}"
 })
 ]]></content>
 </snippet>
