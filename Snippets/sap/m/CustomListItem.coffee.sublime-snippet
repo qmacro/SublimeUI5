@@ -1,0 +1,14 @@
+<snippet>
+    <tabTrigger>CustomListItem</tabTrigger>
+    <scope>source.coffee</scope>
+    <description>sap.m.CustomListItem coffee</description>
+    <content><![CDATA[
+new sap.m.CustomListItem
+    content: [
+      ${1:new sap.m.Text text: "\{name\}"}
+    ]
+    type: ${2:sap.m.ListType.Active}
+    press: ->
+      ${3:console.log('Pressed!')}
+]]></content>
+</snippet>
