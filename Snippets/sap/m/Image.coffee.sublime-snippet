@@ -1,0 +1,9 @@
+<snippet>
+  <tabTrigger>Image</tabTrigger>
+  <scope>source.coffee</scope>
+  <description>sap.m.Image coffee</description>
+  <content><![CDATA[
+new sap.m.Image
+  id:"${1:unique-button-id}"
+]]></content>
+</snippet>
