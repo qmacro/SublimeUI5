@@ -1,0 +1,18 @@
+<snippet>
+  <tabTrigger>FlexBox</tabTrigger>
+  <scope>source.coffee</scope>
+  <description>sap.m.FlexBox coffee</description>
+  <content><![CDATA[
+new sap.m.FlexBox
+  alignItems: ${1:sap.m.FlexAlignItems.Center}
+  justifyContent: ${2:sap.m.FlexJustifyContent.Center}
+  displayInline: ${3:true}
+  width: ${4:"100%"}
+  height: ${5:"50px"}
+  items: [
+    ${6:new sap.m.Text text: "Hello World!"
+    new sap.m.Text text: "Hello Universe!"
+    new sap.m.Text text: "Hello Galaxy!"}
+  ]
+]]></content>
+</snippet>
