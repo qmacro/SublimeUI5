@@ -4,6 +4,7 @@
 	<description>sap.m.Label coffee</description>
 	<content><![CDATA[
 new sap.m.Label
-	text: "${1:Hallo World!}"
+	design: "${1:Bold}"
+	text: "${2:Hallo World!}"
 ]]></content>
 </snippet>
