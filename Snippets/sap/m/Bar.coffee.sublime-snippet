@@ -1,0 +1,13 @@
+<snippet>
+	<tabTrigger>Bar</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>sap.m.Bar coffee</description>
+	<content><![CDATA[
+new sap.m.Bar
+	design: "${1:Footer}"
+	visible: true
+	contentRight: [
+		${2:new sap.m.Text text: "Hallo World!"}
+	]
+]]></content>
+</snippet>
