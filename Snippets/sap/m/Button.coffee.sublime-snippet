@@ -3,10 +3,11 @@
 	<scope>source.coffee</scope>
 	<description>sap.m.Button coffee</description>
 	<content><![CDATA[
-	new sap.m.Button
+new sap.m.Button
 	id:"${1:unique-button-id}"
 	text: "${2:Click Me!}"
+	type: "${3:Accept}"
 	press: ->
-		${3:doSomething()}
+		${4:doSomething()}
 ]]></content>
 </snippet>
