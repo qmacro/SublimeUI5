@@ -1,0 +1,11 @@
+<snippet>
+	<tabTrigger>VerticalLayout</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>sap.ui.layout.VerticalLayout coffee</description>
+	<content><![CDATA[
+new sap.ui.layout.VerticalLayout
+	content: [
+		$0
+	]
+]]></content>
+</snippet>
