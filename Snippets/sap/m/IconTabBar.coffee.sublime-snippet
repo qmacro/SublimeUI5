@@ -1,11 +1,11 @@
 <snippet>
-    <tabTrigger>IconTabBar</tabTrigger>
-    <scope>source.coffee</scope>
-    <description>sap.m.IconTabBar coffee</description>
-    <content><![CDATA[
+	<tabTrigger>IconTabBar</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>sap.m.IconTabBar coffee</description>
+	<content><![CDATA[
 new sap.m.IconTabBar
-    items: [
-        ${1:}
-    ]
+	items: [
+		${1:}
+	]
 ]]></content>
 </snippet>

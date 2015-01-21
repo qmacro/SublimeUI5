@@ -1,10 +1,10 @@
 <snippet>
-    <tabTrigger>SearchField</tabTrigger>
-    <scope>source.coffee</scope>
-    <description>sap.m.SearchField coffee</description>
-    <content><![CDATA[
+	<tabTrigger>SearchField</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>sap.m.SearchField coffee</description>
+	<content><![CDATA[
 new sap.m.SearchField
-    search: "${1:handleSearch}"
-    width: "${2:100%}"
+	search: "${1:handleSearch}"
+	width: "${2:100%}"
 ]]></content>
 </snippet>

@@ -1,10 +1,10 @@
 <snippet>
-    <tabTrigger>IconTabFilter</tabTrigger>
-    <scope>source.coffee</scope>
-    <description>sap.m.IconTabFilter coffee</description>
-    <content><![CDATA[
+	<tabTrigger>IconTabFilter</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>sap.m.IconTabFilter coffee</description>
+	<content><![CDATA[
 new sap.m.IconTabFilter
-    text: "${1:textProperty}"
-    icon: "sap-icon://${2:icon}"
+	text: "${1:textProperty}"
+	icon: "sap-icon://${2:icon}"
 ]]></content>
 </snippet>

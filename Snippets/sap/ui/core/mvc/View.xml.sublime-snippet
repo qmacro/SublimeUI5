@@ -1,12 +1,12 @@
 <snippet>
-    <tabTrigger>View</tabTrigger>
-    <scope>text.xml</scope>
-    <description>sap.ui.core.mvc.View XML</description>
-    <content><![CDATA[
+	<tabTrigger>View</tabTrigger>
+	<scope>text.xml</scope>
+	<description>sap.ui.core.mvc.View XML</description>
+	<content><![CDATA[
 <mvc:View
-    xmlns:mvc="sap.ui.core.mvc"
-    xmlns="${1:sap.m}">
-    $0
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="${1:sap.m}">
+	$0
 </mvc:View>
 ]]></content>
 </snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<tabTrigger>TextArea</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>sap.m.TextArea coffee</description>
+	<content><![CDATA[
+new sap.m.TextArea
+	width: "${1:100%}"
+	placeholder: "${2:Hier text eingeben...}"
+]]></content>
+</snippet>

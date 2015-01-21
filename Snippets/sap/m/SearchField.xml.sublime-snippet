@@ -1,10 +1,10 @@
 <snippet>
-    <tabTrigger>SearchField</tabTrigger>
-    <scope>text.xml</scope>
-    <description>sap.m.SearchField XML</description>
-    <content><![CDATA[
+	<tabTrigger>SearchField</tabTrigger>
+	<scope>text.xml</scope>
+	<description>sap.m.SearchField XML</description>
+	<content><![CDATA[
 <SearchField
-    search="${1:handleSearch}"
-    width="100%" />
+	search="${1:handleSearch}"
+	width="100%" />
 ]]></content>
 </snippet>

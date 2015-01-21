@@ -1,8 +1,8 @@
 <snippet>
-    <tabTrigger>jsreq</tabTrigger>
-    <scope>text.html, source.js</scope>
-    <description>jQuery.sap.require ...</description>
-  <content><![CDATA[
+	<tabTrigger>jsreq</tabTrigger>
+	<scope>text.html, source.js</scope>
+	<description>jQuery.sap.require ...</description>
+	<content><![CDATA[
 jQuery.sap.require("${1:identifier}");
 ]]></content>
 </snippet>

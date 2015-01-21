@@ -1,10 +1,10 @@
 <snippet>
-    <tabTrigger>Page</tabTrigger>
-    <scope>text.html, source.js</scope>
-    <description>sap.m.Page JS</description>
-    <content><![CDATA[
+	<tabTrigger>Page</tabTrigger>
+	<scope>text.html, source.js</scope>
+	<description>sap.m.Page JS</description>
+	<content><![CDATA[
 new sap.m.Page({
-    title: "${1:titleProperty}"
+	title: "${1:titleProperty}"
 })
 ]]></content>
 </snippet>

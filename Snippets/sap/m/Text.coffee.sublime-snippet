@@ -1,0 +1,8 @@
+<snippet>
+	<tabTrigger>Text</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>sap.m.Text coffee</description>
+	<content><![CDATA[
+new sap.m.Text text: "${1:Hallo World!}"
+]]></content>
+</snippet>

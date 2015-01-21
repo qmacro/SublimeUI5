@@ -1,7 +1,7 @@
 <snippet>
-    <tabTrigger>sapsetModel</tabTrigger>
-    <scope>text.html, source.js</scope>
-    <description>sap.ui.getCore().setModel ...</description>
+	<tabTrigger>sapsetModel</tabTrigger>
+	<scope>text.html, source.js</scope>
+	<description>sap.ui.getCore().setModel ...</description>
 	<content><![CDATA[
 sap.ui.getCore().setModel(${1:model},"${2:name}");
 ]]></content>

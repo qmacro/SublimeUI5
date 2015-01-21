@@ -1,0 +1,10 @@
+<snippet>
+	<tabTrigger>Label</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>sap.m.Label coffee</description>
+	<content><![CDATA[
+new sap.m.Label
+	design: "${1:Bold}"
+	text: "${2:Hallo World!}"
+]]></content>
+</snippet>

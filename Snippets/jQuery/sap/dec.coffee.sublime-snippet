@@ -1,8 +1,8 @@
 <snippet>
-    <tabTrigger>jsdec</tabTrigger>
-    <scope>source.coffee</scope>
-    <description>jQuery.sap.declare ...</description>
-  <content><![CDATA[
+	<tabTrigger>jsdec</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>jQuery.sap.declare ...</description>
+	<content><![CDATA[
 jQuery.sap.declare("${1:identifier}")
 ]]></content>
 </snippet>

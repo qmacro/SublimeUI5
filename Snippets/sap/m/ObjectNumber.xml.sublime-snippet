@@ -1,11 +1,11 @@
 <snippet>
-    <tabTrigger>ObjectNumber</tabTrigger>
-    <scope>text.xml</scope>
-    <description>sap.m.ObjectNumber XML</description>
-    <content><![CDATA[
+	<tabTrigger>ObjectNumber</tabTrigger>
+	<scope>text.xml</scope>
+	<description>sap.m.ObjectNumber XML</description>
+	<content><![CDATA[
 <ObjectNumber
-    number="{${1:numberProperty}}"
-    unit="{${2:unitProperty}}"
-    state="{${3:stateProperty}}" />
+	number="{${1:numberProperty}}"
+	unit="{${2:unitProperty}}"
+	state="{${3:stateProperty}}" />
 ]]></content>
 </snippet>

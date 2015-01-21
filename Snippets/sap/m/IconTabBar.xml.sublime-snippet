@@ -1,12 +1,12 @@
 <snippet>
-    <tabTrigger>IconTabBar</tabTrigger>
-    <scope>text.xml</scope>
-    <description>sap.m.IconTabBar XML</description>
-    <content><![CDATA[
+	<tabTrigger>IconTabBar</tabTrigger>
+	<scope>text.xml</scope>
+	<description>sap.m.IconTabBar XML</description>
+	<content><![CDATA[
 <IconTabBar>
-    <items>
-        ${1:}
-    </items>
+	<items>
+		${1:}
+	</items>
 </IconTabBar>
 ]]></content>
 </snippet>

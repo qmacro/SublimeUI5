@@ -1,7 +1,7 @@
 <snippet>
-    <tabTrigger>sapJSONModel</tabTrigger>
-    <scope>text.html, source.js</scope>
-    <description>sap.ui.model.json.JSONModel ...</description>
+	<tabTrigger>sapJSONModel</tabTrigger>
+	<scope>text.html, source.js</scope>
+	<description>sap.ui.model.json.JSONModel ...</description>
 	<content><![CDATA[
 sap.ui.model.json.JSONModel(${1:data});
 ]]></content>

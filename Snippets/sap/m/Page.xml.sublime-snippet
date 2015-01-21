@@ -1,11 +1,11 @@
 <snippet>
-    <tabTrigger>Page</tabTrigger>
-    <scope>text.xml</scope>
-    <description>sap.m.Page XML</description>
-    <content><![CDATA[
+	<tabTrigger>Page</tabTrigger>
+	<scope>text.xml</scope>
+	<description>sap.m.Page XML</description>
+	<content><![CDATA[
 <Page
-    title="${1:titleProperty}">
-    ${2:}
+	title="${1:titleProperty}">
+	${2:}
 </Page>
 ]]></content>
 </snippet>
